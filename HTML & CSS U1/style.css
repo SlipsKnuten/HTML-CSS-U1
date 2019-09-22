@@ -1,0 +1,72 @@
+﻿*{
+	margin: 0px;
+	font-family: 'Be Vietnam', sans-serif;
+	box-sizing: border-box;
+}
+
+#background {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, rgb(0, 90, 167), rgb(255, 253, 228));
+}
+
+#welcome_header{
+	margin: auto;
+	max-width: 50%;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	text-align:center; 
+	
+}
+
+#menu{
+		padding-bottom:5%;
+		
+}
+ul{
+	text-align:center;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	max-width: 40%;
+	background-color:white;
+	box-shadow: 10px 10px 5px grey;
+	border: 2px;
+	border-radius: 2px;
+	padding-bottom: 5px;
+	background-color: #F9F9E2;
+}
+
+li{
+	display: inline;
+	padding: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 0;
+	color: #FFF;
+}
+a:visited {
+  color: black;
+}
+#mainContent{
+	max-width: 50%;
+	margin: auto;
+	text-align:center;
+	margin-bottom: 5%;
+}
+/* #videoContent{ */
+	/* margin:auto; */
+	/* position:relative; */
+	/* align:middle; */
+/* } */
+#videoPlayer{
+	text-align:center;
+	padding-left:20%;
+	display:inline;
+}
+#pdfPresenter{
+	text-align:center;
+	padding-right:20%;
+	display:inline;
+	margin-bottom: 10%;
+}
