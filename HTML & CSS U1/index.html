@@ -3,30 +3,32 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HTML CSS U1</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 </head>
 <body>
-	<div id="background">
+	<main role="main">
 		<h1 id="welcome_header">Welcome to the home of relaxation</h1>
-			<div id="menu">
-				<ul>
+			<nav role="navigation">
+				<ul id="navMenu">
 					<li><a href="">Our products</a></li>
 					<li><a href="">About us</a></li>
 					<li><a href="">FAQ</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
-			</div>
-			<p id="mainContent">
+			</nav>
+
+			<header id="mainContent" role="banner">
 				Here you can find all the components to a life of relaxation. From videos to texts, we have all that you need to relax. So sit back and enjoy the show.
-			</p>
+			</header>
 			<div id="videoPlayer">
 				<iframe width="420" height="315" src="https://www.youtube.com/embed/eY52Zsg-KVI"></iframe>
 			</div>
 			<div id="pdfPresenter">
 				<embed src="Exempel.pdf">
 			</div>
-	</div>
+			<footer role="contentinfo">Contact: gustaf.bergqvist@chasacademy.se || 000000000</footer>
+	</main>
 </body>
 </html>
