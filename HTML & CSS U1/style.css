@@ -1,67 +1,31 @@
-﻿*{
-	margin: 0px;
-	font-family: 'Be Vietnam', sans-serif;
-	box-sizing: border-box;
-}
+*{
+  font-family: 'Be Vietnam', sans-serif;
 
-#background {
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(to top, rgb(0, 90, 167), rgb(255, 253, 228));
 }
-
+main{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: grey;
+}
 #welcome_header{
-	margin: auto;
-	max-width: 50%;
-	padding-bottom: 50px;
-	padding-top: 100px;
-	text-align:center; 
-	
+  padding-top: 2%;
 }
-
-#menu{
-		padding-bottom:5%;
-		
+#navMenu{
+  list-style-type: none;
 }
-ul{
-	text-align:center;
-	list-style-type: none;
-	margin: auto;
-	padding: 0;
-	max-width: 40%;
-	background-color:white;
-	box-shadow: 10px 10px 5px grey;
-	border: 2px;
-	border-radius: 2px;
-	padding-bottom: 5px;
-	background-color: #F9F9E2;
-}
-
 li{
-	display: inline;
-	padding: 0;
-	padding-left: 5%;
-	padding-right: 5%;
-	margin: 0;
-	color: #FFF;
+  display:inline-block;
+  padding: 1%;
+  background-color: black;
 }
-a:visited {
-  color: black;
+li:hover{
+  background-color: white;
 }
-#mainContent{
-	max-width: 50%;
-	margin: auto;
-	text-align:center;
-	margin-bottom: 5%;
+li:hover > a{
+
+  color:black;
 }
-/* #videoContent{ */
-	/* margin:auto; */
-	/* position:relative; */
-	/* align:middle; */
-/* } */
-#videoPlayer{
-	text-align:center;
-}
-#pdfPresenter{
-	text-align:center;
+a{
+  color:white;
 }
