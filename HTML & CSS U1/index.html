@@ -1,16 +1,17 @@
-﻿<!DOCTYPE html>
+																													﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>HTML CSS U1</title>
-		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="responsive.css">
 		<link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
 		<meta charset="UTF-8">
 	</head>
 	<body>
 		<main role="main">
 			<div id="background">
-				<h1 id="welcome_header">Welcome to the home of relaxation</h1>
+				<header id="welcome_header" role="banner">Welcome to the home of relaxation</header>
 					<nav role="navigation">
 						<ul id="navMenu">
 							<li><a href="">Our products</a></li>
@@ -19,15 +20,22 @@
 							<li><a href="">Contact</a></li>
 						</ul>
 					</nav>
-					<header id="mainContent" role="banner">
-						Here you can find all the components to a life of relaxation. From videos to texts, we have all that you need to relax. So sit back and enjoy the show.
-					</header>
+					<div id="card1">
+						<p id="videosText">
+							Here you can see a video of a master in his or hers profession.<br> Even though it seems technique-less a master in his elements never shows his true skill.<br> This seal has reached the pinnacle of relation and will never ever experience stress. So take a good look, study the skill and perhaps you will learn something.
+						</p>
 						<div id="videoPlayer">
 							<iframe width="420" height="315" src="https://www.youtube.com/embed/eY52Zsg-KVI"></iframe>
 						</div>
+					</div><!-- end card1 -->
+					<div id="card2">
 						<div id="pdfPresenter">
-							<embed src="Exempel.pdf">
+							<embed src="Exempel.pdf" id="pdf">
 						</div>
+						<p id="pdfText">
+								Here is a text from another of our masters going in to details about relaxation. It will demonstrate on how to deal with stress in pressured situations. It also digs in to how to relax when actually relaxing, maybe you're on a constant dose of stress. Read it and weep.
+						</p>
+					</div> <!-- end card2 -->
 					<footer role="contentinfo">Contact: gustaf.bergqvist@chasacademy.se || 000000000</footer>
 			</div>
 		</main>
