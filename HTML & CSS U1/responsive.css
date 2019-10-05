@@ -1,0 +1,109 @@
+@media screen and (max-width: 992px) {
+  #welcome_header{
+    margin:0;
+    text-align:center;
+    width: 350px;
+    font-size: 2em;
+  }
+  #background{
+    /* background-color: white; */
+    margin: auto;
+    /* width: auto; */
+    text-align: center;
+    box-sizing: content-box;
+  }
+  nav{
+    display: inline-block;
+  }
+  #navMenu{
+    display: inline-block;
+  }
+  ul{
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+    max-width: 80%;
+    display: inline-block;
+  }
+  #card1{
+    width: auto;
+  }
+  #videosText{
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    /* width: 80%; */
+  }
+  #videoPlayer{
+    display: block;
+    margin: auto;
+  }
+  #card2{
+    /* width: auto; */
+  }
+  #pdfPresenter{
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  #pdfText{
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  #background{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+  }
+  #welcome_header{
+    margin:auto;
+    display:block;
+    text-align:center;
+
+    font-size: 1,1em;
+	  box-sizing: border-box;
+  }
+  li{
+	  margin:2%;
+  }
+  #videoPlayer{
+
+  }
+  #card1{
+    box-sizing: content-box;
+  }
+  #card2{
+    width: auto;
+    box-sizing: content-box;
+  }
+  #videosText{
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    width: 80%;
+  }
+  #videoPlayer{
+    display: block;
+    margin: auto;
+  }
+  #card2{
+
+  }
+  #pdfPresenter{
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  #pdfText{
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+
+}
